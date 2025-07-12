@@ -44,4 +44,14 @@ Open your terminal or command prompt and navigate to the project's root folder.
 
 ```bash
 cd path/to/your/protocol-upgrade-monitor
+```
+### 3. Install requirements
+
+```bash
+pip install -r requirements.txt
+```
+### 4. Running the application
+
+```bash
 uvicorn api.main:app --reload
+```
